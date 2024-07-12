@@ -7,5 +7,8 @@
 </head>
 <body>
     <h1> {{ $message }}</h1>
+    <ul>
+        @foreach
+    </ul>
 </body>
 </html>

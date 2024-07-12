@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     $message = "Hello world!";
+    $list = [
+        "Geeno", "Geena", "Geenetto", "Geenetta"
+    ];
 
-    return view('pages.home', compact('message'));
+    return view('pages.home', compact('message', "list"));
 });
